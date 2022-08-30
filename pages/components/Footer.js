@@ -9,15 +9,16 @@ export default function Footer() {
           <h1 className="flex"><BsMegaphone className="text-xl my-1"/><p className="pl-2 text-lg font-bold">Sobre o repositório</p></h1>
           <p>O Acervo Digital da Uniarp é um Indexador de conteúdo acadêmico, e o seu principal objetivo é unificar as diferentes fontes de pesquisa em um só lugar, o indexador abrange periódicos externos, tccs, monografias, dissertações e artigos produzidos pelos acadêmicos da universidade.</p>
         </div>
-        <div className="w-1/2">
+        <div className="w-1/2 flex pl-44">
         <img
             src="logo.png"
             className="pl-1 h-24"
             alt="Logo Uniplac"
           />
+          <p className="pl-2 text-md font-sans font-bold text-white py-4">Fone: 55 49 32511022<br></br>Av. Castelo Branco, nº170<br></br>Bairro Universitário - Lages - SC - Brasil</p>
         </div>
       </div>
-      <div className="text-gray-700 p-3">
+      <div className="text-gray-700 p-3 font-sans">
         © Copyright:
         <a href="https://tailwind-elements.com/">{" </NIU>"}</a>
       </div>
